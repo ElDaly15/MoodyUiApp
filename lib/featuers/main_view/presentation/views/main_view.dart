@@ -30,6 +30,7 @@ class _MainViewState extends State<MainView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xffFFFFFF),
       body: Column(
         children: [
           Expanded(
@@ -45,7 +46,7 @@ class _MainViewState extends State<MainView> {
         backgroundColor: Colors.white,
         onButtonPressed: onButtonPressed,
         iconSize: 30,
-        activeColor: const Color(0xFF01579B),
+        activeColor: const Color(0xff027948),
         selectedIndex: selectedIndex,
         barItems: <BarItem>[
           BarItem(
