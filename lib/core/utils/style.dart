@@ -10,6 +10,22 @@ abstract class Style {
         fontWeight: FontWeight.w400);
   }
 
+  static TextStyle font24Medium(BuildContext context) {
+    return TextStyle(
+        fontSize: getResponsiveFontSize(context, fontSize: 24),
+        color: Colors.black,
+        fontFamily: 'Montserrat',
+        fontWeight: FontWeight.w500);
+  }
+
+  static TextStyle font24SemiBold(BuildContext context) {
+    return TextStyle(
+        fontSize: getResponsiveFontSize(context, fontSize: 24),
+        color: Colors.black,
+        fontFamily: 'Montserrat',
+        fontWeight: FontWeight.w600);
+  }
+
   static TextStyle font24Bold(BuildContext context) {
     return TextStyle(
         fontSize: getResponsiveFontSize(context, fontSize: 24),
@@ -27,6 +43,22 @@ abstract class Style {
         fontWeight: FontWeight.w400);
   }
 
+  static TextStyle font18Medium(BuildContext context) {
+    return TextStyle(
+        fontSize: getResponsiveFontSize(context, fontSize: 18),
+        color: Colors.black,
+        fontFamily: 'Montserrat',
+        fontWeight: FontWeight.w500);
+  }
+
+  static TextStyle font18SemiBold(BuildContext context) {
+    return TextStyle(
+        fontSize: getResponsiveFontSize(context, fontSize: 18),
+        color: Colors.black,
+        fontFamily: 'Montserrat',
+        fontWeight: FontWeight.w600);
+  }
+
   static TextStyle font18Bold(BuildContext context) {
     return TextStyle(
         fontSize: getResponsiveFontSize(context, fontSize: 18),
@@ -37,20 +69,36 @@ abstract class Style {
 
   // 18 Reguler And Bold Style
 
-  static TextStyle font22Bold(BuildContext context) {
-    return TextStyle(
-        fontSize: getResponsiveFontSize(context, fontSize: 22),
-        color: Colors.black,
-        fontFamily: 'Montserrat',
-        fontWeight: FontWeight.bold);
-  }
-
   static TextStyle font22Regular(BuildContext context) {
     return TextStyle(
         fontSize: getResponsiveFontSize(context, fontSize: 22),
         color: Colors.black,
         fontFamily: 'Montserrat',
         fontWeight: FontWeight.w400);
+  }
+
+  static TextStyle font22Medium(BuildContext context) {
+    return TextStyle(
+        fontSize: getResponsiveFontSize(context, fontSize: 22),
+        color: Colors.black,
+        fontFamily: 'Montserrat',
+        fontWeight: FontWeight.w500);
+  }
+
+  static TextStyle font22SemiBold(BuildContext context) {
+    return TextStyle(
+        fontSize: getResponsiveFontSize(context, fontSize: 22),
+        color: Colors.black,
+        fontFamily: 'Montserrat',
+        fontWeight: FontWeight.w600);
+  }
+
+  static TextStyle font22Bold(BuildContext context) {
+    return TextStyle(
+        fontSize: getResponsiveFontSize(context, fontSize: 22),
+        color: Colors.black,
+        fontFamily: 'Montserrat',
+        fontWeight: FontWeight.bold);
   }
 
   // 22 Reguler And Bold Style
@@ -61,6 +109,22 @@ abstract class Style {
         color: Colors.black,
         fontFamily: 'Montserrat',
         fontWeight: FontWeight.w400);
+  }
+
+  static TextStyle font14Medium(BuildContext context) {
+    return TextStyle(
+        fontSize: getResponsiveFontSize(context, fontSize: 14),
+        color: Colors.black,
+        fontFamily: 'Montserrat',
+        fontWeight: FontWeight.w500);
+  }
+
+  static TextStyle font14SemiBold(BuildContext context) {
+    return TextStyle(
+        fontSize: getResponsiveFontSize(context, fontSize: 14),
+        color: Colors.black,
+        fontFamily: 'Montserrat',
+        fontWeight: FontWeight.w600);
   }
 
   static TextStyle font14Bold(BuildContext context) {
@@ -79,6 +143,22 @@ abstract class Style {
         color: Colors.black,
         fontFamily: 'Montserrat',
         fontWeight: FontWeight.w400);
+  }
+
+  static TextStyle font12Medium(BuildContext context) {
+    return TextStyle(
+        fontSize: getResponsiveFontSize(context, fontSize: 12),
+        color: Colors.black,
+        fontFamily: 'Montserrat',
+        fontWeight: FontWeight.w500);
+  }
+
+  static TextStyle font12SemiBold(BuildContext context) {
+    return TextStyle(
+        fontSize: getResponsiveFontSize(context, fontSize: 12),
+        color: Colors.black,
+        fontFamily: 'Montserrat',
+        fontWeight: FontWeight.w600);
   }
 
   static TextStyle font12Bold(BuildContext context) {
