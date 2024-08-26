@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:moody/featuers/main_view/presentation/views/widgets/custom_app_bar_for_main_view.dart';
+import 'package:moody/featuers/main_view/presentation/views/widgets/welcome_section.dart';
 
 class MainViewBody extends StatelessWidget {
   const MainViewBody({super.key});
@@ -16,6 +17,10 @@ class MainViewBody extends StatelessWidget {
             ),
           ),
           CustomAppBarMainView(),
+          SizedBox(
+            height: 25,
+          ),
+          WelcomeSection(),
         ],
       ),
     );
