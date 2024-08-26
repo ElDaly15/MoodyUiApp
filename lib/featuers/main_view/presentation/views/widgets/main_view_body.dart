@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:moody/core/utils/imageAssets.dart';
+import 'package:moody/core/utils/style.dart';
 import 'package:moody/featuers/main_view/presentation/views/widgets/custom_app_bar_for_main_view.dart';
+import 'package:moody/featuers/main_view/presentation/views/widgets/custom_section_header.dart';
+import 'package:moody/featuers/main_view/presentation/views/widgets/exercise_section.dart';
 import 'package:moody/featuers/main_view/presentation/views/widgets/feauture_section.dart';
+import 'package:moody/featuers/main_view/presentation/views/widgets/item_of_exercise_section.dart';
 import 'package:moody/featuers/main_view/presentation/views/widgets/welcome_section.dart';
 
 class MainViewBody extends StatelessWidget {
@@ -26,6 +31,10 @@ class MainViewBody extends StatelessWidget {
             height: 40,
           ),
           FeatureSection(),
+          SizedBox(
+            height: 35,
+          ),
+          ExerciseSection(),
         ],
       ),
     );
