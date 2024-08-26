@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:moody/featuers/main_view/presentation/views/widgets/custom_section_header.dart';
 import 'package:moody/featuers/main_view/presentation/views/widgets/exercise_all_items.dart';
-import 'package:moody/featuers/main_view/presentation/views/widgets/main_view_body.dart';
 
 class ExerciseSection extends StatelessWidget {
   const ExerciseSection({super.key});

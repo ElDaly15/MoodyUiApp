@@ -19,7 +19,7 @@ class _PageBuilderForFeatureMainItemState
     return Column(
       children: [
         SizedBox(
-          height: width * 0.55,
+          height: width * 0.59,
           child: PageView.builder(
             onPageChanged: (page) {
               currentIndex = page;

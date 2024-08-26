@@ -17,7 +17,7 @@ class CustomItemForExerciseSection extends StatelessWidget {
     return Align(
       alignment: Alignment.centerLeft,
       child: Container(
-        width: width * 0.40,
+        width: width * 0.39,
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
             color: Color(colorId), borderRadius: BorderRadius.circular(8)),
@@ -31,7 +31,7 @@ class CustomItemForExerciseSection extends StatelessWidget {
             ),
             Text(
               textItem,
-              style: Style.font18Bold(context),
+              style: Style.font14Bold(context),
             )
           ],
         ),

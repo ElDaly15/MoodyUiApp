@@ -37,7 +37,7 @@ class FeatureMainItem extends StatelessWidget {
                 ),
                 const Spacer(),
                 SizedBox(
-                  width: width * 0.3,
+                  width: width * 0.260,
                   child: AspectRatio(
                     aspectRatio: 1 / 1,
                     child: Image.asset(
