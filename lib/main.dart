@@ -1,9 +1,10 @@
+import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:moody/featuers/main_view/presentation/views/main_view.dart';
 
 void main() {
-  runApp(const MoodyApp());
+  runApp(DevicePreview(enabled: false, builder: (context) => const MoodyApp()));
 }
 
 class MoodyApp extends StatelessWidget {
@@ -11,9 +12,11 @@ class MoodyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const GetMaterialApp(
+    return GetMaterialApp(
+      locale: DevicePreview.locale(context),
+      builder: DevicePreview.appBuilder,
       debugShowCheckedModeBanner: false,
-      home: MainView(),
+      home: const MainView(),
     );
   }
 }

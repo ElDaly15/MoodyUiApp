@@ -1,4 +1,5 @@
-// ignore_for_file: prefer_single_quotes
+// ignore_for_file: file_names
+
 class Assets {
   Assets._();
 
