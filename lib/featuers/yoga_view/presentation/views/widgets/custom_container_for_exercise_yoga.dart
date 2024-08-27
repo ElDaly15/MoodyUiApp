@@ -23,8 +23,8 @@ class CustomYogaExercisesContainer extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const SizedBox(
-            height: 10,
+          SizedBox(
+            height: width * 0.002,
           ),
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -37,15 +37,15 @@ class CustomYogaExercisesContainer extends StatelessWidget {
                 'Morning Yoga',
                 style: Style.font22Bold(context),
               ),
-              const SizedBox(
-                height: 10,
+              SizedBox(
+                height: width * 0.002,
               ),
               Text(
                 'improve mental focus',
                 style: Style.font14Medium(context),
               ),
-              const SizedBox(
-                height: 10,
+              SizedBox(
+                height: width * 0.02,
               ),
               Row(
                 children: [

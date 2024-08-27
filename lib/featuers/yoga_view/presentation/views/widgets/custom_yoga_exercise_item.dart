@@ -14,7 +14,7 @@ class CustomYogaExerciseItem extends StatelessWidget {
         children: [
           const CustomYogaExercisesContainer(),
           Positioned(
-              right: width * 0.05,
+              right: width * 0.01,
               bottom: width * 0.08,
               child: Image.asset(Assets.imagesYoga)),
         ],
