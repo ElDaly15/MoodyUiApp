@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+
 import 'package:moody/featuers/yoga_view/presentation/views/widgets/status_section.dart';
 
 import 'package:moody/featuers/yoga_view/presentation/views/widgets/yoga_app_bar.dart';
+import 'package:moody/featuers/yoga_view/presentation/views/widgets/yoga_exercise_section.dart';
 
 class YogaViewBody extends StatelessWidget {
   const YogaViewBody({super.key});
@@ -28,6 +30,12 @@ class YogaViewBody extends StatelessWidget {
             ),
           ),
           SliverToBoxAdapter(child: StatusSection()),
+          SliverToBoxAdapter(
+            child: SizedBox(
+              height: 30,
+            ),
+          ),
+          SliverToBoxAdapter(child: YogaExerciseSection()),
         ],
       ),
     );
