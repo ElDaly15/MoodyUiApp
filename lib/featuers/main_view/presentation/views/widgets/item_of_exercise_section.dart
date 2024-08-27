@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:moody/core/utils/style.dart';
-import 'package:moody/featuers/yoga_view/presentation/views/widgets/yoga_view.dart';
+import 'package:moody/featuers/yoga_view/presentation/views/yoga_view.dart';
 
 class CustomItemForExerciseSection extends StatelessWidget {
   const CustomItemForExerciseSection(

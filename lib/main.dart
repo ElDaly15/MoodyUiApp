@@ -4,7 +4,7 @@ import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:moody/featuers/main_view/presentation/views/main_view.dart';
 
 void main() {
-  runApp(DevicePreview(enabled: true, builder: (context) => const MoodyApp()));
+  runApp(DevicePreview(enabled: false, builder: (context) => const MoodyApp()));
 }
 
 class MoodyApp extends StatelessWidget {
